@@ -1,0 +1,20 @@
+[
+    {
+        "species": "Human",
+        "planet": "Earth",
+        "population": "8,000,000",
+        "status": "Destroyed"
+    },
+    {
+        "species": "Martian",
+        "planet": "Mars",
+        "population": "1,000,000",
+        "status": "Barely Alive"
+    },
+    {
+        "species": "Rock People",
+        "planet": "Mercury",
+        "population": "40,000",
+        "status": "Thriving"
+    }
+]
