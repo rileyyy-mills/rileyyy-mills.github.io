@@ -12,9 +12,22 @@
         "status": "Barely Alive"
     },
     {
+        "species": "Reman",
+        "planet": "Remus",
+        "population": "30,000",
+        "status": "Alive"
+    },
+    {
+        "species": "Sandy",
+        "planet": "Some Asteroid",
+        "population": "1",
+        "status": "Barely Alive"
+    },
+    {
         "species": "Rock People",
         "planet": "Mercury",
         "population": "40,000",
         "status": "Thriving"
     }
 ]
+
