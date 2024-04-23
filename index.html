@@ -127,6 +127,19 @@
         // Return the URL based on the title
         return urls[title] || "#"; // Default to "#" if title not found
     }
+
+    // Function to detect zoom level and display an alert
+    function detectZoomLevel() {
+        var zoomLevel = Math.round(window.devicePixelRatio * 100);
+        if (zoomLevel > 100) {
+            alert("Too zoomed in? Press 'Ctrl/Cmd' + '-' and zoom out 50%.");
+        }
+    }
+
+    // Call the detectZoomLevel function when the page loads
+    window.onload = function() {
+        detectZoomLevel();
+    };
 </script>
 
 </body>
